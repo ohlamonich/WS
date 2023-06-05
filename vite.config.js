@@ -1,3 +1,4 @@
+//here
 import { sveltekit } from '@sveltejs/kit/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { plugin as MdPlugin } from 'vite-plugin-markdown';
