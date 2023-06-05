@@ -26,35 +26,6 @@ I'm not expert, I can't write clean code, but I try to create this Genshin Impac
 
 ![Weapon Banner](screenshot/switch-banner.jpg)
 
-#### Shop
-
-![Buying Welkin](https://user-images.githubusercontent.com/13815468/212980583-7539f527-c6bb-4005-8322-8996b59937fe.gif)
-
-> For more preview, please visit the live version at [https://wishsimulator.app](https://wishsimulator.app)
-
----
-
-## Features
-
-1. All banner types available ( Beginner, Standard, Event and Weapon Banner )
-2. Dual or Single Character Event Banner.
-3. Epitomized Path System for Weapon Banner start from version 2.0 - latest.
-4. Pity System almost like the real game.
-5. **The most complete banners** of all existing simulator, user can switch and do gacha on every banner starts from version 1.0 - latest.
-6. Gacha Milestone Bonus, Starglitter and Stardust, exchangable to Aquaint or Intertwined Fate at the Shop section
-7. **Shop** section, Serving Gacha Currencies, Outfit and Welkin
-8. Purchasable Outfits and Blessing of the Welkin Moon
-9. Shared Pity with previous banner, User can continuously gacha on different patch without reseting pity.
-10. **Wish Details** for each banner.
-11. Different banner type has different **Gacha History**
-12. **Inventory** to show all items ( Weapons, Characters and Outfits ) that already owned by gacha or purchasement
-13. Screenshot and download wish result as Image localy.
-14. Pity Counter, User can track their current information and history of their pity
-15. Site Localization, So I hope this Wish Sim can reach more people even they aren't english speaker.
-16. Mobile Friendly, responsive layout both landscape and portrait orientation.
-17. Link generator if user want to share their gacha result through internet.
-18. All user data will be saved to local storage and indexedDB.
-
 ## Pity System
 
 I don't know how HoyoVerse's algorithm is, so I tried to create mine as realistic as possible with the following points based on in-game wish details. I also use [GI Gacha Dataset](https://github.com/OneBST/GI_gacha_dataset) as reference on creating the wishing probability.
@@ -91,50 +62,6 @@ I don't know how HoyoVerse's algorithm is, so I tried to create mine as realisti
 4. When you guaranteed for *5 and *4 item at the same time, your next pull priority is *5 item and *4 item will appear next at pity 11. For example: On Character Event Banner, you doesn't get *5 item until pity 89 and your *4 pity is 9, So your next pull will looks like screenshot below.
 
    ![double guaranteed](screenshot/double-guaranteed.png)
-
-## Development
-
-This app build with [Svelte-Kit](https://kit.svelte.dev/) based on Javascript programming language.
-
-Once you've cloned this project, install all dependencies with `npm install` (or `pnpm install` or `yarn`). Once all dependencies already installed, then you can start a development server or build for production:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-### How to Update new banner
-
-- The guide to Add New Banner are moved to Wiki, [Read Here](https://github.com/AguzzTN54/Genshin-Impact-Wish-Simulator/wiki/How-to-Add-more-Banner)
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment, then run the command below. As default, this project use [Vercel Adapter](https://github.com/sveltejs/kit/tree/master/packages/adapter-vercel) and can be deployed to [Vercel.com](https://vercel.com)
-
-```bash
-npm run build
-```
-
-## Deployment
-
-Before Deploy to online server, please setup the environment variables by renaming file `.env.example` to `.env` and change the variables if needed.
-Then, if you want to serve some assets through cdn, please provide your Github Repo's informations that you use to save your assets, simply you can fork this repository then put your github username to environment variables.
-
-The site will use [jsDelivr](https://www.jsdelivr.com/) free cdn service. You also can use another CDN Service like [Statically](https://statically.io/) and [PageCDN](https://pagecdn.com/) for free or use paid service from Azure, AWS and GCP, but You must to setup the configuration yourself.
-
-\*\* You can still deploy the app without even set the environment variables
-
----
-
-## Contributing
-
-I'm welcome to all contributors! Feel free to [open new Issue](https://github.com/AguzzTN54/Genshin-Impact-Wish-Simulator/issues/new) if you find any problem or just want to give any suggestions.
-
-### Thank You to all Contributors
-
-[![Contributor](https://contrib.rocks/image?repo=AguzzTN54/Genshin-Impact-Wish-Simulator)](https://github.com/AguzzTN54/Genshin-Impact-Wish-Simulator/graphs/contributors)
 
 > **Notes :**
 >
