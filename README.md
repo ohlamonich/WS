@@ -25,10 +25,6 @@
 
 ## Pity System
 
-I don't know how HoyoVerse's algorithm is, so I tried to create mine as realistic as possible with the following points based on in-game wish details. I also use [GI Gacha Dataset](https://github.com/OneBST/GI_gacha_dataset) as reference on creating the wishing probability.
-
-> if you feel luckier when you roll in this simulator, I can tell you it's just a feeling, In the simulator you can do a thousand or more rolls without limit, In real games your wishes are limited by the game currencies, therefore more chance to get multiple \*5 item in this wish simulator
-
 1. Probability for \*4 item
 
    - 4* Item guaranteed at 10 roll and promoted *4 item guaranteed at 20 roll.
